@@ -3,9 +3,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    font-family: 'Numans', sans-serif;
+    font-family: Georgia;
     }
 
+.logo {
+    margin-left: 500px;
+}
+
+/*form container styling*/
 .container {
     margin-left: 350px;
     background-color: aliceblue;
@@ -13,6 +18,23 @@ body{
     border-radius: 5px;
     padding: 20px 0 30px 0;
 } 
+
+h2 {
+   text-align:center; 
+   color: #011837;
+   font-family: Georgia;
+}
+
+/* colors & font styling of fb, twitter and google buttons*/
+.sm {
+    color: #011837;
+    font-family: Georgia;
+}
+
+.log {
+    color: #011837;
+    font-family: Georgia;
+}
 
 .fb {
     background-color: #3B5998;
@@ -35,9 +57,10 @@ body{
     border-radius: 8px;
 }
 
+/*login button styling*/ 
 .mybtn {
     width: 30%;
-    background-color: #4caf50;
+    background-color: #011837;
     color: white;
     padding: 12px 20px;
     margin: 8px 0;
@@ -47,6 +70,7 @@ body{
     font-size: 15px;
 }
 
+/* form input field and social media button styling*/ 
 input, .btn {
   width: 400px;
   padding: 12px;
@@ -59,20 +83,21 @@ input, .btn {
   display: inline-block;
   font-size: 17px;
   line-height: 20px;
-  text-decoration: none; 
+  text-decoration: none; /* remove underline from anchors */
+  font-family: Georgia;
 }
 
 input[type=password] {
-   color: antiquewhite
+   color: antiquewhite;
 }
 
-input[type=username] {
-    color: antiquewhite
+input[type=email] {
+    color: antiquewhite;
  }
 
  input[type=checkbox] {
     color: antiquewhite;
-    margin: auto;
+    margin-left: 0px;
  }
 
 .bottom-container {
@@ -80,9 +105,4 @@ input[type=username] {
     text-decoration: none;
 }
 
-@media screen and (max-width: 650px) {
-.col {
-      width: 100%;
-      margin-top: 0;
-}
-}
+
